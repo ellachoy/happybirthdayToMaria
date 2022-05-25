@@ -1,2 +1,2 @@
-alert("Happy birthday Maria 🎊\n die ist erste web Geburtskarte für dich!")
+alert("Happy birthday Maria 🎊\n hier ist erste web Geburtskarte für dich!")
 
