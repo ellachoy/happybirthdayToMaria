@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Happy Birthday To Maria</title>
+</head>
+<body>
+ <audio id="audio" src="Geburtstagslied für Maria.mp3" autoplay loop>
+                
+             </audio>          
+    <div class="loading">
+        <p class="para"></p>
+        <p class="click"></p>
+    </div>
+      <div class="loaded">
+    <div class="loaded">
+
+
+        <div class="left">
+         <div class="line"></div>
+        <div class="triangle1"></div>
+        <div class="triangle2"></div>
+        <div class="triangle3"></div>
+        </div><div class="right">
+        <div class="line2"></div>
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        </div>
+        <main class="full"> 
+        
+        <div class="plate"></div>
+        <div class="base1">
+            <div class="ab1"></div>
+             <div class="bb1"></div>
+              <div class="cb1"></div>
+               <div class="db1"></div>
+                <div class="eb1"></div>
+                <div class="fb1"></div> 
+                <div class="gb1"></div> 
+        </div>
+        <div class="base2">
+        <div class="ab1"></div>
+             <div class="bb1"></div>
+              <div class="cb1"></div>
+               <div class="db1"></div>
+                <div class="eb1"></div>
+                </div> 
+                
+        <div class="base3">
+            <div class="ab1"></div>
+             <div class="bb1"></div>
+              
+        </div>
+        <div class="candle"></div>
+        <div class="curve"></div>
+        <div class="wick"></div>
+        <div class="wickcircle"></div>
+        <div class="flame"></div>
+        
+        
+        </main>
+        <center>
+         <div id="balloons">
+    <div class="balloon one">
+    <div id="main"><div id="main1"></div></div>
+        <div id="ball"></div><div id="line"></div>
+        </div>
+        <div class="balloon two">
+        <div id="main" style="background:#3792cb"><div id="main1" style="background:#45b6fe"></div></div>
+        <div id="ball" style="border-bottom:20px solid #3792cb"></div><div id="line"></div>
+        </div>
+        <div class="balloon three">
+        <div id="main" style="background:#73b504"><div id="main1" style="background:#80c904"></div></div>
+        <div id="ball" style="border-bottom:20px solid #73b504"></div><div id="line"></div>
+        </div>
+        </div>
+        
+        <div class="birthday">HAPPY BIRTHDAY TO Maria</div>
+        <div class="birthdaywish">
+        
+        
+Alles Gute zum Geburtstag Liebe Maria!!!🥰<br>
+deine Euiseok & Sangi<br>
+
+
+
+
+
+        </div>
+        
+        </div></div>
+  
+  <img src="https://www.greetingsgif.com/wp-content/uploads/2020/06/Cute-Happy-Birthday-Gif-GG-08240620.gif" alt="HappyBirthday" width="100%" height="310px" class="img-wish2" />    
+        
+     <script>
+         let loading="Loading";
+        let elem = document.querySelector(".para"); document.querySelector(".loaded").style.display="none";   
+            
+            click=()=>{document.querySelector(".loaded").style.display = "block";
+            
+   document.querySelector(".loading").style.display="none";         
+   play();
+           
+           }
+            
+   async function load ()  {  for (i=0;i<loading.length;i++)   {
+            elem.innerHTML+= loading[i];
+            await new Promise((resolve)=>{
+                setTimeout(()=>{resolve("resolved")},150);
+            });
+        } ;
+        document.querySelector(".click").innerText ="Click here "
+        document.querySelector(".click").addEventListener("click",click);
+        
+        };
+        load();    
+        play=function(){document.getElementById("audio").play();}
+      //  swal("hello,/n/n lorem ipsum dolor set amet ")
+          </script>   
+        <div class="sn">
+         <div class="snow1"></div>
+      <div class="snow2"></div>
+      <div class="snow3"></div>
+    </div>
+        
+    </body>
+</html>
